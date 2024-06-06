@@ -86,7 +86,7 @@ DATABASES = {
         "NAME": "schooldb",
         "USER": "root",
         "PASSWORD": "rootroot",
-        "HOST": os.getenv("DATABASE_HOST", "localhost"),
+        "HOST": "schooldb.cfekowyukay6.us-east-2.rds.amazonaws.com",
         "PORT": "3306",
     }
 }
